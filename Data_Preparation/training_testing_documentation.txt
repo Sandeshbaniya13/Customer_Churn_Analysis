@@ -1,0 +1,12 @@
+
+Training and Testing Sets Documentation
+
+Training Set:
+- Size: 4930 samples
+- Composition: 5 features
+- Target Variable: 'Churn'
+
+Testing Set:
+- Size: 2113 samples
+- Composition: 5 features
+- Target Variable: 'Churn'
