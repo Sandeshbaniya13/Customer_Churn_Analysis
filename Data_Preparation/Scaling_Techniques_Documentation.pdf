@@ -1,1 +1,5 @@
- 
+In this project, we applied feature scaling to the numerical features using the StandardScaler from Scikit-learn.This technique standardizes the features by removing the mean and scaling to unit variance.
+code Snippets: from sklearn preprocessing import
+StandardScaler
+#Feature scaling scaler = StandardScaler() numerical_features = ['tenure','MonthlyCharges']
+df_encoded[numerical_features] = scaler.fit_transform(df_encoded[numerical_features])
